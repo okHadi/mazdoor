@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Local data & artifacts (never commit job data, PDFs, or drafts)
+data/
+artifacts/
+*.db
+*.db-wal
+*.db-shm
+
+# Secrets / credentials / tokens (never)
+*.json
+!pyproject.toml
+client_secrets.json
+token.json
+*.pem
+*.key
+.env
+.env.*
+secrets/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
